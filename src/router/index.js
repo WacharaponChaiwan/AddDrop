@@ -1,7 +1,7 @@
 import { createRouter, createWebHistory } from "vue-router";
 import News from "../views/News.vue";
-import Major from "../views/Major.vue"
-import Addorp from "../views/Addorp.vue"
+import Major from "../views/Major.vue";
+import Addorp from "../views/Addorp.vue";
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),

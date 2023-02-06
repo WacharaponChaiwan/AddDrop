@@ -91,7 +91,9 @@ const { AOP, Pheim, Lb } = Adorp();
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-header">
-          <h1 class="modal-title fs-5" id="exampleModalLabel">ยืนยันการลงทะเบียน</h1>
+          <h1 class="modal-title fs-5" id="exampleModalLabel">
+            ยืนยันการลงทะเบียน
+          </h1>
           <button
             type="button"
             class="btn-close"
@@ -101,7 +103,11 @@ const { AOP, Pheim, Lb } = Adorp();
         </div>
         <div class="modal-body">ตรวจสอบข้อมูลก่อนกดยืนยัน</div>
         <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+          <button
+            type="button"
+            class="btn btn-secondary"
+            data-bs-dismiss="modal"
+          >
             ปิด
           </button>
           <button type="button" class="btn btn-primary" data-bs-dismiss="modal">

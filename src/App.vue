@@ -36,15 +36,18 @@ import { RouterLink, RouterView } from "vue-router";
           <ul class="navbar-nav">
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="#">
-                <RouterLink to="/News" >News</RouterLink>
+                <RouterLink to="/News">News</RouterLink>
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#"><RouterLink to="/Major" >Major</RouterLink></a>
-              
+              <a class="nav-link" href="#"
+                ><RouterLink to="/Major">Major</RouterLink></a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#"><RouterLink to="Addorp" >Addorp</RouterLink></a>
+              <a class="nav-link" href="#"
+                ><RouterLink to="Addorp">Addorp</RouterLink></a
+              >
             </li>
             <li class="nav-item">
               <a class="nav-link disabled"></a>
@@ -56,5 +59,5 @@ import { RouterLink, RouterView } from "vue-router";
   </div>
   <div></div>
   <br />
-    <RouterView />
+  <RouterView />
 </template>

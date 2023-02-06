@@ -1,6 +1,10 @@
 <template>
   <div>
-    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+    <div
+      id="carouselExampleSlidesOnly"
+      class="carousel slide"
+      data-bs-ride="carousel"
+    >
       <div class="carousel-inner">
         <div class="carousel-item active d-flex justify-content-center">
           <img
