@@ -1,7 +1,7 @@
 import { createRouter, createWebHistory } from "vue-router";
-import News from "../views/News.vue";
-import Major from "../views/Major.vue";
-import Addorp from "../views/Addorp.vue";
+import NewsView from "../views/NewsView.vue";
+import MajorView from "../views/MajorView.vue";
+import AddorpView from "../views/AddorpView.vue";
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -13,7 +13,7 @@ const router = createRouter({
     {
       path: "/News",
       name: "News",
-      component: News,
+      component: NewsView,
     },
     {
       path: "/",
@@ -22,7 +22,7 @@ const router = createRouter({
     {
       path: "/Major",
       name: "Major",
-      component: Major,
+      component: MajorView,
     },
     {
       path: "/",
@@ -31,7 +31,7 @@ const router = createRouter({
     {
       path: "/Addorp",
       name: "Addorp",
-      component: Addorp,
+      component: AddorpView,
     },
   ],
 });
